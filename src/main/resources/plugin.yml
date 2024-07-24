@@ -1,0 +1,10 @@
+name: ItemPlugin
+version: '${version}'
+main: de.amethyst.itemplugin.ItemPlugin
+api-version: '1.21'
+commands:
+  item:
+    description: Opens an item creation GUI
+    usage: /item [search]
+    aliases:
+      - i
